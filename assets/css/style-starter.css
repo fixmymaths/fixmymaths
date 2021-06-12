@@ -3349,6 +3349,10 @@ input[type="button"].btn-block {
       color: #fff; }
 
 .card {
+  margin: auto;
+  border-radius: 10px;
+  max-width: 1200px;
+  padding: 40px;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -3357,7 +3361,27 @@ input[type="button"].btn-block {
   background-color: #fff;
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
-  border-radius: 0.25rem; }
+  /* border-radius: 0.25rem; */
+} 
+
+.priceTag{
+  font-size: 60px;
+          line-height: 41px;
+          font-weight: bold;
+          margin-right: 10px;
+}
+
+
+
+
+
+.card > span {
+  margin-bottom: 100px;
+    font-size: 60px;
+    line-height: 41px;
+    font-weight: bold;
+    margin-right: 10px;
+  }
   .card > hr {
     margin-right: 0;
     margin-left: 0; }
@@ -3390,10 +3414,14 @@ input[type="button"].btn-block {
   margin-left: 1.25rem; }
 
 .card-header {
-  padding: 0.75rem 1.25rem;
-  margin-bottom: 0;
-  background-color: rgba(0, 0, 0, 0.03);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.125); }
+  font-size: 32px;
+    line-height: 41px;
+    margin-bottom: 20px;
+    /* padding: 0.75rem 1.25rem; */
+    margin-bottom: 0;
+    /* background-color: rgba(0, 0, 0, 0.03); */
+    /* border-bottom: 1px solid rgba(0, 0, 0, 0.125); */
+} }
   .card-header:first-child {
     border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0; }
   .card-header + .list-group .list-group-item:first-child {
